@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shrinkColumns="2"
+        tools:context=".Main4Activity">
+    <TableRow>
+        <TextView android:text="Coluna 1" />
+        <TextView android:text="Coluna 2" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Coluna 1" />
+        <TextView android:text="Coluna 2" />
+        <TextView android:text="Esse é um texto que deve ser muito
+grande de propósito então vou escrever aqui qualquer coisa." />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Coluna 1" />
+        <TextView android:text="Coluna 2" />
+        <TextView android:text="Coluna 3" />
+    </TableRow>
+</TableLayout>
